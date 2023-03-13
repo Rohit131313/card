@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:10%;
+    }
+    .div{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background-color:grey;
+      box-shadow: 10px 10px black;
+      display:block;
+      border-radius:1vh;
+      padding:3%;
+    }
+    p{
+        background-color: aqua;
+        border:1vh solid grey;
+        font-size: 4vh;
+        display: flex;
+        justify-content: center;
+    }
+    label{
+        font-size:4vh;
+    }
+    h1{
+        background-color: white;
+    }
+    </style>
+</head>
+<body>
+    <div class="div">
+    <h1>Add New Card</h1>
+    <label for="number">Card Number</label><br>
+    <input type="text" id="number"><br>
+    <label for="name">Card Holder's Name</label><br>
+    <input type="text" id="name"><br>
+    <label for="expiry">Expiry</label><br>
+    <input type="month" id="expiry"><br>
+    <label for="cvv">CVV</label><br>
+    <input type="text" id="cvv"><br>
+    <p>Pay : $99</p>
+</div>
+</body>
+</html>
